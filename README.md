@@ -532,3 +532,20 @@ Honest about what this is: a complete, locally-runnable demo, not a deployed pro
 - **The original design export in `src/`** is kept only as a visual reference and is not part of the running app.
 
 Design decisions taken in conversation that changed already-built parts of the project are tracked in [DESIGN_BACKLOG.md](DESIGN_BACKLOG.md), including where each was implemented.
+
+
+## Development Environment
+
+### Requirements
+
+- Node.js 24+
+- Python 3.10+
+- Git
+- npm
+
+### Installation
+
+Install the project dependencies:
+
+```bash
+npm run setup
