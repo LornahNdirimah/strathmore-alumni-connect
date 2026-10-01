@@ -1,0 +1,430 @@
+{
+  "users": [
+    {
+      "id": "student-001",
+      "name": "Kevin Otieno",
+      "email": "student@demo.com",
+      "password": "Student123!",
+      "role": "student",
+      "status": "active"
+    },
+    {
+      "id": "alumni-001",
+      "name": "Dr. Amina Osei",
+      "email": "alumni@demo.com",
+      "password": "Alumni123!",
+      "role": "alumni",
+      "status": "active"
+    },
+    {
+      "id": "admin-001",
+      "name": "Platform Admin",
+      "email": "admin@demo.com",
+      "password": "Admin123!",
+      "role": "admin",
+      "status": "active"
+    }
+  ],
+  "students": [
+    {
+      "id": "student-001",
+      "name": "Kevin Otieno",
+      "age": 23,
+      "sex": "Male",
+      "major": "Computer Science",
+      "year": "Junior",
+      "gpa": 3.5,
+      "hobbies": [
+        "table tennis",
+        "photography"
+      ],
+      "country": "Kenya",
+      "stateProvince": "Nairobi County",
+      "uniqueQuality": "Product-minded builder and community volunteer",
+      "story": "Kevin is a junior computer science student with a strong interest in software products, mentorship, and career growth. He enjoys building practical projects and learning from experienced professionals.",
+      "interests": [
+        "software engineering",
+        "product strategy",
+        "machine learning"
+      ],
+      "skillTags": [
+        "Python",
+        "React",
+        "Product Thinking"
+      ],
+      "preferredMentorshipAreas": [
+        "Product strategy",
+        "Career growth"
+      ]
+    }
+  ],
+  "mentors": [
+    {
+      "id": 1,
+      "name": "Dr. Amina Osei",
+      "role": "Senior Data Scientist",
+      "company": "Google DeepMind",
+      "industry": "Technology",
+      "availability": "Available",
+      "matchScore": 96,
+      "skills": [
+        "Data Science",
+        "Machine Learning",
+        "Python",
+        "Career Strategy"
+      ],
+      "location": "Nairobi, Kenya",
+      "bio": "Passionate about using data to solve real-world problems across Africa. I mentor students interested in AI/ML careers, from statistics fundamentals through to landing their first ML role.",
+      "certifications": [
+        "Google Professional ML Engineer",
+        "PhD Artificial Intelligence, University of Cape Town"
+      ],
+      "timeline": [
+        {
+          "year": "2020–Present",
+          "title": "Senior Data Scientist",
+          "org": "Google DeepMind",
+          "description": "Leading ML research on NLP systems for African languages."
+        },
+        {
+          "year": "2017–2020",
+          "title": "Data Scientist",
+          "org": "Safaricom",
+          "description": "Built predictive models for M-PESA fraud detection."
+        },
+        {
+          "year": "2014–2017",
+          "title": "Research Assistant",
+          "org": "Strathmore University",
+          "description": "Machine learning applications in healthcare."
+        }
+      ],
+      "postedOpportunities": [
+        {
+          "id": "opp-1",
+          "title": "ML Engineer Intern",
+          "type": "Internship",
+          "postedAt": "2026-08-20"
+        },
+        {
+          "id": "opp-2",
+          "title": "Data Scientist Graduate",
+          "type": "Full-time",
+          "postedAt": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "James Mwangi",
+      "role": "VP of Engineering",
+      "company": "Safaricom",
+      "industry": "Telecommunications",
+      "availability": "Available",
+      "matchScore": 89,
+      "skills": [
+        "Software Engineering",
+        "Leadership",
+        "Mobile Tech",
+        "Product"
+      ],
+      "location": "Nairobi, Kenya",
+      "bio": "15 years in tech, from mobile payments to cloud infrastructure. Happy to guide students navigating the East African tech ecosystem.",
+      "certifications": [
+        "AWS Certified Solutions Architect"
+      ],
+      "timeline": [
+        {
+          "year": "2019–Present",
+          "title": "VP of Engineering",
+          "org": "Safaricom",
+          "description": "Leads platform engineering for M-PESA and consumer apps."
+        },
+        {
+          "year": "2013–2019",
+          "title": "Engineering Manager",
+          "org": "Safaricom",
+          "description": "Scaled mobile payments infrastructure."
+        }
+      ],
+      "postedOpportunities": [
+        {
+          "id": "opp-3",
+          "title": "Software Engineering Intern",
+          "type": "Internship",
+          "postedAt": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Grace Njoroge",
+      "role": "UX Design Lead",
+      "company": "Andela",
+      "industry": "Design & Tech",
+      "availability": "Busy",
+      "matchScore": 84,
+      "skills": [
+        "UX Design",
+        "Product Design",
+        "Research",
+        "Figma"
+      ],
+      "location": "Lagos, Nigeria",
+      "bio": "Designing products used by millions. Passionate about African user research and inclusive design.",
+      "certifications": [
+        "Google UX Design Professional Certificate"
+      ],
+      "timeline": [
+        {
+          "year": "2021–Present",
+          "title": "UX Design Lead",
+          "org": "Andela",
+          "description": "Leads design for developer-facing products."
+        },
+        {
+          "year": "2017–2021",
+          "title": "Product Designer",
+          "org": "Flutterwave",
+          "description": "Designed payment flows for merchant apps."
+        }
+      ],
+      "postedOpportunities": [
+        {
+          "id": "opp-4",
+          "title": "Product Design Volunteer Mentor",
+          "type": "Volunteer",
+          "postedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Brian Otieno",
+      "role": "Founder & CEO",
+      "company": "AgriTech Kenya",
+      "industry": "Agriculture & Tech",
+      "availability": "Available",
+      "matchScore": 81,
+      "skills": [
+        "Entrepreneurship",
+        "Product",
+        "Agritech",
+        "Business Strategy"
+      ],
+      "location": "Kisumu, Kenya",
+      "bio": "Building agricultural solutions for smallholder farmers. Mentor entrepreneurs and product managers on building for emerging markets.",
+      "certifications": [
+        "Y Combinator Startup School"
+      ],
+      "timeline": [
+        {
+          "year": "2018–Present",
+          "title": "Founder & CEO",
+          "org": "AgriTech Kenya",
+          "description": "Built a platform connecting smallholder farmers to markets."
+        },
+        {
+          "year": "2015–2018",
+          "title": "Product Manager",
+          "org": "Twiga Foods",
+          "description": "Led supply-chain product for informal retail."
+        }
+      ],
+      "postedOpportunities": [
+        {
+          "id": "opp-5",
+          "title": "Founding Product Intern",
+          "type": "Internship",
+          "postedAt": "2026-08-18"
+        }
+      ]
+    }
+  ],
+  "collaborationGroups": [
+    {
+      "id": "group-1",
+      "name": "Data Science & AI Leaders",
+      "topic": "Data Science, Machine Learning, AI Ethics",
+      "description": "A collaborative space for alumni working in data science and AI to share knowledge, discuss industry trends, and support each other career growth.",
+      "members": [
+        "alumni-001",
+        "alumni-002",
+        "alumni-003"
+      ],
+      "createdBy": "alumni-001",
+      "createdAt": "2026-06-01",
+      "resources": [
+        {
+          "title": "ML Engineering Best Practices",
+          "url": "https://example.com/ml-guide"
+        },
+        {
+          "title": "AI Ethics Framework",
+          "url": "https://example.com/ethics"
+        }
+      ]
+    },
+    {
+      "id": "group-2",
+      "name": "Startup Founders Network",
+      "topic": "Entrepreneurship, Fundraising, Growth Strategy",
+      "description": "Connect with fellow alumni entrepreneurs, share startup challenges, and collaborate on business opportunities across the network.",
+      "members": [
+        "alumni-002",
+        "alumni-004"
+      ],
+      "createdBy": "alumni-004",
+      "createdAt": "2026-07-10",
+      "resources": [
+        {
+          "title": "Pitch Deck Template",
+          "url": "https://example.com/pitch"
+        },
+        {
+          "title": "Series A Guide",
+          "url": "https://example.com/series-a"
+        }
+      ]
+    },
+    {
+      "id": "group-3",
+      "name": "Product Managers Circle",
+      "topic": "Product Strategy, User Research, Roadmapping",
+      "description": "A community for product managers to exchange insights, discuss product challenges, and mentor each other through the PM journey.",
+      "members": [
+        "alumni-001",
+        "alumni-003"
+      ],
+      "createdBy": "alumni-003",
+      "createdAt": "2026-08-05",
+      "resources": [
+        {
+          "title": "OKRs Framework",
+          "url": "https://example.com/okrs"
+        },
+        {
+          "title": "User Research Methods",
+          "url": "https://example.com/research"
+        }
+      ]
+    },
+    {
+      "id": "group-4",
+      "name": "Women in Leadership Network",
+      "topic": "Leadership, Advocacy, Professional Development",
+      "description": "Empowering women alumni through mentorship, advocacy, and professional development across every industry represented in the network.",
+      "members": [
+        "alumni-001",
+        "alumni-004"
+      ],
+      "createdBy": "alumni-001",
+      "createdAt": "2026-06-20",
+      "resources": [
+        {
+          "title": "Negotiation Playbook",
+          "url": "https://example.com/negotiation"
+        },
+        {
+          "title": "Sponsorship vs Mentorship Guide",
+          "url": "https://example.com/sponsorship"
+        }
+      ]
+    },
+    {
+      "id": "group-5",
+      "name": "Nairobi Tech Professionals",
+      "topic": "Local Meetups, Hackathons, Career Opportunities",
+      "description": "Local tech events, hackathons, and career opportunities in the Nairobi ecosystem — the on-the-ground counterpart to the Data Science & AI Leaders group.",
+      "members": [
+        "alumni-002",
+        "alumni-003",
+        "alumni-004"
+      ],
+      "createdBy": "alumni-002",
+      "createdAt": "2026-07-22",
+      "resources": [
+        {
+          "title": "Nairobi Tech Events Calendar",
+          "url": "https://example.com/nairobi-events"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "event-1",
+      "title": "Annual Alumni Gala 2026",
+      "date": "October 15, 2026",
+      "time": "6:00 PM EAT",
+      "location": "Strathmore University, Main Hall",
+      "type": "In-Person",
+      "tag": "Reunion",
+      "description": "Celebrate another year of outstanding alumni achievements. Networking dinner, awards ceremony, and keynote by notable alumni."
+    },
+    {
+      "id": "event-2",
+      "title": "Tech Career Fair 2026",
+      "date": "September 5, 2026",
+      "time": "9:00 AM – 4:00 PM",
+      "location": "Online + On-Campus",
+      "type": "Hybrid",
+      "tag": "Career Fair",
+      "description": "Connect with top tech companies hiring from Strathmore. Over 40 companies in attendance. CV review sessions available."
+    },
+    {
+      "id": "event-3",
+      "title": "Mentorship Webinar: Breaking into Finance",
+      "date": "August 22, 2026",
+      "time": "7:00 PM EAT",
+      "location": "Zoom (link sent on registration)",
+      "type": "Online",
+      "tag": "Webinar",
+      "description": "Alumni share their journeys into investment banking and corporate finance."
+    },
+    {
+      "id": "event-4",
+      "title": "Nairobi Tech Professionals Mixer",
+      "date": "August 30, 2026",
+      "time": "5:30 PM EAT",
+      "location": "iHub, Nairobi",
+      "type": "In-Person",
+      "tag": "Networking",
+      "description": "Monthly networking for tech-focused alumni in Nairobi. Bring business cards."
+    },
+    {
+      "id": "event-5",
+      "title": "Resume & Portfolio Clinic",
+      "date": "September 18, 2026",
+      "time": "4:00 PM EAT",
+      "location": "Zoom (link sent on registration)",
+      "type": "Online",
+      "tag": "Career Clinic",
+      "description": "Get live feedback on your CV and portfolio from alumni hiring managers before the Career Fair."
+    }
+  ],
+  "verificationQueue": [
+    {
+      "id": "verify-1",
+      "name": "Samuel Njuguna",
+      "classYear": "Class of 2018",
+      "program": "BSc Finance",
+      "status": "pending"
+    },
+    {
+      "id": "verify-2",
+      "name": "Wanjiru Kamau",
+      "classYear": "Class of 2020",
+      "program": "BSc IT",
+      "status": "pending"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann-1",
+      "title": "Career clinics open this month",
+      "audience": "all",
+      "body": "Registration for the next mentorship career clinic is now open for all alumni and students."
+    }
+  ]
+}
