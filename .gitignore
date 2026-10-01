@@ -1,0 +1,32 @@
+node_modules/
+dist/
+build/
+.cache/
+.env*
+# Templates carry no secrets and the quick start copies them.
+!.env.example
+.vite/
+vite.config.*.timestamp-*
+*.tsbuildinfo
+*-debug.log*
+logs/
+*.log
+.claude-replay.*
+.tmp-*
+
+# Python (ml-matching/)
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+
+# ml-matching generated output -- contains profile data (names, hobbies,
+# etc.) once run against real data, must not be committed
+ml-matching/**/match_results.json
+ml-matching/**/match_events.jsonl
+ml-matching/**/*_valid.json
+
+# Local development tools downloaded by scripts (e.g. Mailpit via npm run mail)
+.tools/

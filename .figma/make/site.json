@@ -1,0 +1,10 @@
+{
+  "description": "Connect with university alumni to find mentors, build professional networks, access career resources, and engage in events for career growth and guidance.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
